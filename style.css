@@ -74,8 +74,8 @@ header {
 
 .hero-section button {
     background-color: #1D4ED8;
-    margin-top: 35%;
-    padding: 12px 35px;
+    margin-top: 40%;
+    padding: 12px 40px;
 }
 
 .speakers-section h2 {
@@ -176,6 +176,7 @@ header {
     border-radius: 8px;
     margin-top: 15px;
     cursor: pointer;
+    width: 100%;
 }
 
 .card-standard button:hover {
@@ -213,6 +214,7 @@ header {
     border-radius: 8px;
     margin-top: 15px;
     cursor: pointer;
+    width: 100%;
 }
 
 .card-pro button:hover {
@@ -239,6 +241,7 @@ header {
     border-radius: 8px;
     margin-top: 15px;
     cursor: pointer;
+    width: 100%;
 }
 
 .card-team button:hover {
@@ -310,7 +313,7 @@ header {
     background: #1E4ED8;
 }
 
-.footer-container {
+.footer-top {
    background-color: #16314d;
    padding: 40px;
 }
@@ -322,11 +325,27 @@ header {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
 .social-icons {
+    display: flex;
+    gap: 15px;
     font-size: 25px;
+}
+
+.social-icons a {
+    color: #c5c3c3;
+}
+
+.social-icons a:hover {
+    color: #2563EB;
+}
+
+.footer-top hr {
+    border: none;
+    border-top: 1px solid #888888;
+    margin: 20px auto;
+    max-width: 1200px;
 }
 
 .footer-bottom {

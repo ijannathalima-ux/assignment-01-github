@@ -1,4 +1,4 @@
-# AI Prompt
+#  Prompt
 
 Create a modern Hackathon section for a DevConf 2026 website using only HTML and CSS.
 
