@@ -31,7 +31,7 @@ a:hover {
     color: #2563EB;
 }
 
-.common-btn button{
+.common-btn button {
     background-color: #2563EB;
     color: white;
     padding: 8px 20px;
@@ -44,9 +44,9 @@ a:hover {
     background-color: #3774f9;
 }
 
-header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ),
-    url('./assets/banner.jpg');
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url('./assets/banner.jpg');
     height: 700px;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,7 +56,7 @@ header{
     align-items: center;
 }
 
-.hero-section{
+.hero-section {
     text-align: center;
     color: white;
 }
@@ -72,24 +72,57 @@ header{
     line-height: 1.2;
 }
 
-.hero-section button{
+.hero-section button {
     background-color: #1D4ED8;
     margin-top: 35%;
     padding: 12px 35px;
 }
 
-.speakers-section h1 {
+.speakers-section h2 {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 80px;
     font-size: 2.5rem;
 }
 
 .speakers-card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    gap: 32px;
     max-width: 1200px;
-    margin: 5% auto;
+    margin: 50px auto 0;
+}
+
+.card {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px #575757;
+}
+
+.card-info {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+
+.category {
+    color: #2563EB;
+    font-size: 10px;
+}
+
+.designation {
+    color: #575757;
+    font-size: 15px;
+}
+
+.pricing-section{
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    margin-top: 80px;
+    max-width: 1200px;
+}
+
+.pricing-section h2{
+    font-size: 2.5rem;
 }
