@@ -15,14 +15,14 @@
     margin: 0 auto;
 }
 
-ul {
+.container ul {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 20px;
 }
 
-a {
+.container a {
     text-decoration: none;
     color: #575757;
 }
@@ -45,7 +45,7 @@ a:hover {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ),
         url('./assets/banner.jpg');
     height: 700px;
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ header {
     font-size: 2.5rem;
 }
 
-.speakers-card {
+.speakers-card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
@@ -115,14 +115,117 @@ header {
     font-size: 15px;
 }
 
-.pricing-section{
+.pricing-section {
     display: grid;
     gap: 10px;
     text-align: center;
     margin-top: 80px;
     max-width: 1200px;
+    margin-left: 12%;
 }
 
-.pricing-section h2{
+.pricing-section h2 {
     font-size: 2.5rem;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-list {
+    display: grid;
+    gap: 10px;
+}
+
+.card-list li::marker {
+    color: #2563EB;
+}
+
+.card-standard {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+    color: #575757;
+    background-color: #F8F9FB;
+    border-radius: 10px;
+    padding: 32px;
+    width: 100%;
+    box-shadow: 0 1px 3px #888888;
+}
+
+.common-color {
+    color: #888888;
+}
+
+.common-number{
+    font-size: 3rem;
+    color: #0D1B2A;
+}
+
+.card-standard button {
+    border: 2px solid #2563EB;
+    color: #2563EB;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.card-pro {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+    background-color: #0D1B2A;
+    color: #575757;
+    border-radius: 10px;
+    padding: 32px;
+    width: 100%; 
+    box-shadow: 0 1px 3px #888888;
+}
+
+
+.pro-color {
+    color: #2563EB;
+    font-size: 15px;
+}
+
+.pro-number {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.card-pro button {
+    border: none;
+    color: #F8F9FB;
+    background-color: #2563EB;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.card-team {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+    color: #575757;
+    background-color: #F8F9FB;
+    border-radius: 10px;
+    padding: 32px;
+    width: 100%;
+    box-shadow: 0 1px 3px #888888;
+}
+
+.card-team button {
+    border: 2px solid #333333;
+    color: #333333;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin-top: 15px;
 }
