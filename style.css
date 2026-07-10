@@ -174,6 +174,11 @@ header {
     padding: 8px 20px;
     border-radius: 8px;
     margin-top: 15px;
+    cursor: pointer;
+}
+
+.card-standard button:hover {
+    background: #e1dfdf;
 }
 
 .card-pro {
@@ -188,7 +193,6 @@ header {
     width: 100%; 
     box-shadow: 0 1px 3px #888888;
 }
-
 
 .pro-color {
     color: #2563EB;
@@ -207,6 +211,11 @@ header {
     padding: 8px 20px;
     border-radius: 8px;
     margin-top: 15px;
+    cursor: pointer;
+}
+
+.card-pro button:hover {
+    background: #3774f9;
 }
 
 .card-team {
@@ -228,4 +237,74 @@ header {
     padding: 8px 20px;
     border-radius: 8px;
     margin-top: 15px;
+    cursor: pointer;
+}
+
+.card-team button:hover {
+    background: #dbdcdc;
+}
+
+.hackathon-container {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 60px;
+    background: #EEF4FF;
+    border: 2px dashed #6C63FF;
+    border-radius: 16px;
+}
+
+.hackathon-content {
+    text-align: center;
+}
+
+.hackathon-content h2 {
+    font-size: 2.5rem;
+    color: #0D1B2A;
+    margin-bottom: 20px;
+}
+
+.hackathon-content > p {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #575757;
+    line-height: 1.8;
+}
+
+.hackathon-cards {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.hack-card {
+    flex: 1;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.hack-card h3 {
+    color: #2563EB;
+    margin-bottom: 15px;
+}
+
+.hack-card p {
+    color: #575757;
+    line-height: 1.6;
+}
+
+.hack-btn {
+    background: #2563EB;
+    color: #fff;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hack-btn:hover {
+    background: #1E4ED8;
 }
